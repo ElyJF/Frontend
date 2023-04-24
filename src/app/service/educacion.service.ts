@@ -12,7 +12,7 @@ import { Educacion } from "../model/educacion";
  
     
 
-    expURL = 'http://localhost:8080/educacion/';
+    expURL = 'https://portfolio-qf4e.onrender.com/educacion/';
   
   
     constructor(private httpClient : HttpClient) { }

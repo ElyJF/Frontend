@@ -11,7 +11,7 @@ import { persona } from '../model/persona';
 })
 
 export class PersonaService {
-  URL = environment.URL + 'personas/';
+  URL =  'https://portfolio-qf4e.onrender.com/personas/';
 
   constructor(private http: HttpClient) { }
 
